@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Anasayfa"
+        android:id="@+id/anasayfa"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Hakkımda"
+        android:id="@+id/hakkimda"
+        android:icon="@drawable/baseline_person_24"/>
+    <item android:title="Galeri"
+        android:id="@+id/galeri"
+        android:icon="@drawable/baseline_image_24"/>
+    <item android:title="İletişim"
+        android:id="@+id/iletisim"
+        android:icon="@drawable/baseline_phone_24"/>
+    <item android:title="Blog"
+        android:id="@+id/blog"
+        android:icon="@drawable/baseline_contact_page_24"/>
+</menu>
