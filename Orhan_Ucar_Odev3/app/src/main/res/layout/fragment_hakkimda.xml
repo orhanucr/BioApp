@@ -6,12 +6,177 @@
     android:background="@color/background"
     tools:context=".Hakkimda">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hakkımda"
-        android:textSize="26sp"
-        android:layout_gravity="center"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/hakkimda_header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hakkımda"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="10sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="7sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginEnd="30sp"
+                android:text="--> Merhabalar ben Orhan. İnönü Üniversitesi Bilgisayar Mühendisliği son sınıf
+                öğrencisiyim. Mobil uygulama geliştirme alanında çalışıyorum. Bu alanda kendim çok sayıda proje ortaya koydum ve koymaya devam ediyorum.
+                Aktif olarak kod yazıyor ve projelerde yer alıyorum."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eğitim Bilgileri"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="10sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5sp"
+                android:layout_marginStart="30sp"
+                android:text="--> İnönü üniversitesi (Bilgisayar Müh. 3.04/4)"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5sp"
+                android:layout_marginStart="30sp"
+                android:text="--> Erbil Koru Anadolu Lisesi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İş Deneyimi"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="30sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5sp"
+                android:layout_marginStart="30sp"
+                android:text="--> Mosaş Group (Android Developer)"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="5sp"
+                android:text="--> Çalışma Süresi: 06/2022 - 10/2022"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beceriler"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="30sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5sp"
+                android:layout_gravity="center_horizontal"
+                android:text="--> Java          --> Kotlin          --> Android"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5sp"
+                android:layout_gravity="center_horizontal"
+                android:text="--> FireBase          --> SQLite          --> PostgreSQL"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5sp"
+                android:layout_gravity="center_horizontal"
+                android:text="--> AndroidStudıo          --> Postman          --> Ubuntu"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 
 </FrameLayout>
