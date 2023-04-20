@@ -10,6 +10,6 @@
         android:centerY="45"/>
 
     <corners
-        android:bottomLeftRadius="57dp"
-        android:bottomRightRadius="57dp"/>
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"/>
 </shape>
