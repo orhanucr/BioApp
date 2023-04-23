@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.orhan_ucar_odev3.databinding.FragmentAnasayfaBinding
+
 import com.example.orhan_ucar_odev3.databinding.FragmentGaleriBinding
 
 class Galeri : Fragment() {
@@ -18,7 +18,10 @@ class Galeri : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentGaleriBinding.inflate(inflater, container, false)
+
         return binding.root
+
     }
+
 
 }

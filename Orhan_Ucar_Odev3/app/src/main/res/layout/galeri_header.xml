@@ -34,9 +34,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="end"
-                android:text="Benimle İletişime Geçin"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:text="Bazı Çalışmalarım"
                 android:textColor="@color/white"
                 android:textSize="28sp"
                 android:textStyle="bold" />

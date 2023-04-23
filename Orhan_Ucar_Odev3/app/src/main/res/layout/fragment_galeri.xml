@@ -13,40 +13,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/baslik"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:gravity="center"
-            android:text="Bazı Çalışmalarım"
-            android:textColor="@color/white"
-            android:textSize="28sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <View
-            android:id="@+id/cizgi"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintTop_toBottomOf="@id/baslik"/>
+        <include
+            android:id="@+id/include"
+            layout="@layout/galeri_header" />
 
         <LinearLayout
             android:id="@+id/mottoMobilLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:layout_marginTop="5dp"
             android:background="@drawable/text_body"
             android:orientation="horizontal"
-            app:layout_constraintTop_toBottomOf="@id/cizgi"
+            app:layout_constraintTop_toBottomOf="@+id/include"
             tools:layout_editor_absoluteX="15dp">
 
             <ImageView
+                android:id="@+id/motto"
                 android:layout_width="50dp"
                 android:layout_height="100dp"
                 android:layout_margin="10dp"
