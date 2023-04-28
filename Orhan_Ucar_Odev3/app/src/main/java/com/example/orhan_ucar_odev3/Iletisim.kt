@@ -34,7 +34,7 @@ class Iletisim : Fragment() {
                 val message = "Mail içeriği"
 
                 val intent = Intent(Intent.ACTION_SENDTO).apply {
-                    data = Uri.parse("mailto:")
+                    data = Uri.parse("mailto:$recipient")
                     putExtra(Intent.EXTRA_EMAIL, arrayOf(recipient))
                     putExtra(Intent.EXTRA_SUBJECT, subject)
                     putExtra(Intent.EXTRA_TEXT, message)

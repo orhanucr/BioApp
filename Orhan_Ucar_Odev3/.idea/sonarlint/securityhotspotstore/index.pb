@@ -7,8 +7,6 @@ j
 :app/src/main/java/com/example/orhan_ucar_odev3/Hakkimda.kt,c\9\c999c55016922513d08a3cb6589a6758956f4663
 h
 8app/src/main/java/com/example/orhan_ucar_odev3/Galeri.kt,e\c\ecbbdce25c851cfc96d76fccbf62e29d576f1f81
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 f
 6app/src/main/java/com/example/orhan_ucar_odev3/Blog.kt,e\9\e93d348a4cb61d9991c23a002226cf5c4338dd01
 j

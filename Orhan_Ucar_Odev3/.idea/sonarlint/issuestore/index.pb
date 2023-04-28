@@ -3,8 +3,6 @@
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 n
 >app/src/main/java/com/example/orhan_ucar_odev3/MainActivity.kt,b\6\b6415b30a6d6140d2ba83a8f857bea2a53f80222
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 j
 :app/src/main/java/com/example/orhan_ucar_odev3/Hakkimda.kt,c\9\c999c55016922513d08a3cb6589a6758956f4663
 h
