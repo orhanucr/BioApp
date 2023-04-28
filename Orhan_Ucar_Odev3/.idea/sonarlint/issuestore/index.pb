@@ -1,8 +1,6 @@
 
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-j
-:app/src/main/java/com/example/orhan_ucar_odev3/Iletisim.kt,3\9\39bc2b0b75b10d78ee7f707aea2431cce530337e
 n
 >app/src/main/java/com/example/orhan_ucar_odev3/MainActivity.kt,b\6\b6415b30a6d6140d2ba83a8f857bea2a53f80222
 P

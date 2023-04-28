@@ -55,7 +55,7 @@ class Iletisim : Fragment() {
         }
 
         linkedinButton.setOnClickListener {
-            showAlert("LinkedIn'e gitmek istediğinize emin misiniz?", "https://linkedin.com/in/orhan-uçar-1060a9208")
+            showAlert("LinkedIn'e gitmek istediğinize emin misiniz?", "https://www.linkedin.com/in/orhan-ucar-1060a9208/")
         }
 
         gitHubButton.setOnClickListener {
