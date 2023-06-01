@@ -1,4 +1,4 @@
-# BioApp
+# Bio App
 
 <h2>Fragment ile Biyografi Uygulaması</h2>
 <p>Bu örnek projede, Fragment ve WebView yapısı ile biyografi uygulaması yapılmıştır.</p>
