@@ -1,7 +1,7 @@
 # Bio App
 
 <h2>Fragment ile Biyografi Uygulaması</h2>
-<p>Bu örnek projede, Fragment ve WebView yapısı ile biyografi uygulaması yapılmıştır.</p>
+<p>Bu örnek projede, Fragment ve WebView yapısı ile biyografi uygulaması yapılmıştır. Kendim ile ilgili bilgilerim, daha önceki projelerim ve bana ulaşabileceğiniz kanalları bir uygulama şeklinde servis ettim.</p>
 
 <h2>Setup Binding</h2>
 <pre><code>buildFeatures{
