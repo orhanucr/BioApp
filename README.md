@@ -6,7 +6,8 @@
 <h2>Setup Binding</h2>
 <pre><code>buildFeatures{
         viewBinding true
-    }</code></pre>
+}</code></pre>
+
 
 <h2>Manifest Dosyası</h2>
 <pre><code>&lt;uses-permission android:name="android.permission.INTERNET"/&gt;</code></pre>
